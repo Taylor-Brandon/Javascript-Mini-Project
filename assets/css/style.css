@@ -1,0 +1,15 @@
+:root{
+    --mainLight: rgb(102, 102, 186);
+    --mainDark: rgb(119, 114, 114);
+    --mainText: white;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background:linear-gradient(to bottom, rgb(206, 200, 200), var(--mainDark));
+    color: var(--mainText);
+}
+.word-header{
+    border-bottom: solid 10px var(--mainText);
+    height: 100px;
+}

@@ -10,6 +10,23 @@ body{
     color: var(--mainText);
 }
 .word-header{
-    border-bottom: solid 10px var(--mainText);
-    height: 100px;
+    border-bottom: solid 2px var(--mainText);
+    height: 180px;
+    text-align: center;
+    background-color: var(--mainDark);
 }
+
+h1{
+    padding: 30px;
+    font-size: 55px;
+}
+
+.start-button{
+    color: var(--mainText);
+    background-color: var(--mainLight);
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+

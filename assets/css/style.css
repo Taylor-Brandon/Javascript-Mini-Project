@@ -30,3 +30,67 @@ h1{
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+.word-box{
+    border: solid 5px var(--mainText);
+    border-radius: 30px;
+    width: 700px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: var(--mainDark);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.placement-word{
+    padding: 100px;
+    font-size: 40px;
+}
+
+.score-card{
+    border: solid 5px var(--mainText);
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    margin-top: -290px;
+    margin-left: 1100px;
+    text-align: center;
+    background-color: var(--mainDark);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.win-score{
+    margin-top: 30px;
+    margin-left: -400px;
+    font-size: 25px;
+}
+
+.lose-score{
+    margin-top: 20px;
+    margin-left: -380px;
+    font-size: 25px;
+}
+
+.reset-button{
+    color: var(--mainText);
+    background-color: var(--mainLight);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 25px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.time-left{
+    font-size: 25px;
+    padding: 65px;
+}
+
+footer{
+    margin-top: 300px;
+    text-align: center;
+}
+
+
+
